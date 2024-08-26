@@ -19,4 +19,5 @@ import re
 
 pattern = r'\b' + re.escape('п') + r'\w*'
 
+
 print(re.findall(pattern, Pushkin, flags=re.IGNORECASE))
